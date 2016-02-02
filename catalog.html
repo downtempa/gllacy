@@ -10,7 +10,7 @@
 	<div class="container">
 		<header class="main-header">
 			<!--	ЛОГО-->
-			<div class="main-header__logo logo"><img src="logo.svg" alt="Gllacy Shop" title="Gllacy Shop"></div>
+			<div class="main-header__logo logo"><a href="index.html"><img src="logo.svg" alt="Gllacy Shop" title="Gllacy Shop"></a></div>
 			<div class="main-header__catalog catalog">
 				<a class="main-header__link" href="#">Каталог</a>
 				<!--			ВЫПАДАЮЩАЯ МЕНЮШКА-->
@@ -76,7 +76,186 @@
 			</div>
 
 		</header>
-		
+		<div class="breadcrumbs">
+			<ul class="breadcrumbs__list">
+				<li class="breadcrumbs__element"><a href="index.html" class="breadcrumbs__link">Главная</a></li>
+				<li class="breadcrumbs__element"><a href="#" class="breadcrumbs__link">Каталог</a></li>
+				<li class="breadcrumbs__element breadcrumbs__element--active">Сливочное</li>
+			</ul>
+		</div>
+		<h1>Сливочное мороженое</h1>
+		<div class="product-filter">
+			<form action="" class="product-filter__form">
+				<select class="product-filter__select" name="" id="">
+					<option value="popular">по популярности</option>
+					<option value="cheap">сначала недорогие</option>
+					<option value="expensive" selected>сначала дорогие</option>
+					<option value="fat">по жирности</option>
+				</select>
+				<div class="product-filter__price-range range">
+					
+					<div class="range__controls">
+						<div class="range__scale">
+							<div class="range__bar" style="margin-left: 0%; width: 85%"></div>
+						</div>
+						<div class="range__toggle range__toggle--min"></div>
+						<div class="range__toggle range__toggle--max"></div>
+					</div>
+
+				</div>
+				<fieldset>
+					<legend>Жирность:</legend>
+					<label>
+						<input type="radio" name="fat">0%</label>
+					<label>
+						<input type="radio" name="fat">до 10%</label>
+					<label>
+						<input type="radio" name="fat">до 30%</label>
+					<label>
+						<input type="radio" name="fat">выше 30%</label>
+				</fieldset>
+				<fieldset>
+					<legend>Наполнители:</legend>
+					<input type="checkbox" id="chocolate">
+					<label for="chocolate">шоколадные</label>
+					<input type="checkbox" id="sugar">
+					<label for="sugar">сахарные присыпки</label>
+					<input type="checkbox" id="fruit">
+					<label for="fruit">фрукты</label>
+					<input type="checkbox" id="syrup">
+					<label for="syrup">сиропы</label>
+					<input type="checkbox" id="jam">
+					<label for="jam">джемы</label>
+				</fieldset>
+				<input type="submit" value="Применить">
+			</form>
+		</div>
+		<div class="product-catalog">
+			<ul class="product-catalog__list">
+				<li class="product-catalog__item">
+					<div class="product">
+						<div class="product__image"><img src="" alt=""></div>
+						<div class="product__price-title">310&#8381;/кг</div>
+						<div class="product__description">Сливочное с апельсиновым джемом и цитрусовой стружкой
+						</div>
+						<a href="#" class="product__btn product__btn--hover btn">Быстрый просмотр</a>
+					</div>
+				</li>
+				<li class="product-catalog__item">
+					<div class="product">
+						<div class="product__image"><img src="" alt=""></div>
+						<div class="product__price-title">380&#8381;/кг</div>
+						<div class="product__description">Сливочно-клубничное с присыпкой из белого шоколада
+						</div>
+						<a href="#" class="product__btn product__btn--hover btn">Быстрый просмотр</a>
+					</div>
+				</li>
+				<li class="product-catalog__item">
+					<div class="product">
+						<div class="product__image"><img src="" alt=""></div>
+						<div class="product__price-title">355&#8381;/кг</div>
+						<div class="product__description">Сливочно-кофейное с кусочками шоколада
+						</div>
+						<a href="#" class="product__btn product__btn--hover btn">Быстрый просмотр</a>
+					</div>
+				</li>
+				<li class="product-catalog__item">
+					<div class="product">
+						<div class="product__image"><img src="" alt=""></div>
+						<div class="product__price-title">415&#8381;/кг</div>
+						<div class="product__description">Сливочное крем-брюле с карамельной подливкой
+						</div>
+						<a href="#" class="product__btn product__btn--hover btn">Быстрый просмотр</a>
+					</div>
+				</li>
+				<li class="product-catalog__item">
+					<div class="product">
+						<div class="product__image"><img src="" alt=""></div>
+						<div class="product__price-title">325&#8381;/кг</div>
+						<div class="product__description">Сливочное с брусничным джемом
+
+						</div>
+						<a href="#" class="product__btn product__btn--hover btn">Быстрый просмотр</a>
+					</div>
+				</li>
+				<li class="product-catalog__item">
+					<div class="product">
+						<div class="product__image"><img src="" alt=""></div>
+						<div class="product__price-title">410&#8381;/кг</div>
+						<div class="product__description">Сливочно-черничное с цельными ягодами черники
+						</div>
+						<a href="#" class="product__btn product__btn--hover btn">Быстрый просмотр</a>
+					</div>
+				</li>
+				<li class="product-catalog__item">
+					<div class="product">
+						<div class="product__image"><img src="" alt=""></div>
+						<div class="product__price-title">375&#8381;/кг</div>
+						<div class="product__description">Сливочно-лимонное с карамельной присыпкой
+						</div>
+						<a href="#" class="product__btn product__btn--hover btn">Быстрый просмотр</a>
+					</div>
+				</li>
+				<li class="product-catalog__item">
+					<div class="product">
+						<div class="product__image"><img src="" alt=""></div>
+						<div class="product__price-title">320&#8381;/кг</div>
+						<div class="product__description">Сливочное с шоколадной стружкой
+						</div>
+						<a href="#" class="product__btn product__btn--hover btn">Быстрый просмотр</a>
+					</div>
+				</li>
+				<li class="product-catalog__item">
+					<div class="product">
+						<div class="product__image"><img src="" alt=""></div>
+						<div class="product__price-title">440&#8381;/кг</div>
+						<div class="product__description">Сливочно-ванильное с кусочками шоколада
+
+						</div>
+						<a href="#" class="product__btn product__btn--hover btn">Быстрый просмотр</a>
+					</div>
+				</li>
+				<li class="product-catalog__item">
+					<div class="product">
+						<div class="product__image"><img src="" alt=""></div>
+						<div class="product__price-title">435&#8381;/кг</div>
+						<div class="product__description">Сливочноe с ментоловым сиропом
+						</div>
+						<a href="#" class="product__btn product__btn--hover btn">Быстрый просмотр</a>
+					</div>
+				</li>
+				<li class="product-catalog__item">
+					<div class="product">
+						<div class="product__image"><img src="" alt=""></div>
+						<div class="product__price-title">355&#8381;/кг</div>
+						<div class="product__description">Сливочное с кусочками черного шоколада
+						</div>
+						<a href="#" class="product__btn product__btn--hover btn">Быстрый просмотр</a>
+					</div>
+				</li>
+				<li class="product-catalog__item">
+					<div class="product">
+						<div class="product__image"><img src="" alt=""></div>
+						<div class="product__price-title">420&#8381;/кг</div>
+						<div class="product__description">Сливочное с мятным сиропом
+						</div>
+						<a href="#" class="product__btn product__btn--hover btn">Быстрый просмотр</a>
+					</div>
+				</li>
+			</ul>
+			<div class="product-catalog__pagination pagination">
+				<ul class="pagination__list">
+					<li class="pagination__item"><a href="" class="pagination__link pagination__arrow-left">#</a></li>
+					<li class="pagination__item"><a href="" class="pagination__link">1</a></li>
+					<li class="pagination__item"><a href="" class="pagination__link">2</a></li>
+					<li class="pagination__item"><a href="" class="pagination__link">3</a></li>
+					<li class="pagination__item"><a href="" class="pagination__link">4</a></li>
+					<li class="pagination__item"><a href="" class="pagination__link">5</a></li>
+					<li class="pagination__item"><a href="" class="pagination__link pagination__arrow-right">#</a></li>
+				</ul>
+			</div>
+		</div>
+
 		<!--	ФУТЕР-->
 		<footer class="main-footer">
 			<!--		СОЦ-->
