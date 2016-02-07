@@ -228,6 +228,10 @@ img {
 	display: block;
 }
 
+.login__popup:hover {
+	display: block;
+}
+
 
 /*BASKET------------------------------*/
 
