@@ -29,10 +29,12 @@
 			<div class="user-controls">
 				<!--		ПОИСК-->
 				<div class="user-controls__search search">
-					<a href="#" class="search__btn">Поиск</a>
-					<div class="search__popup">
-						<input type="search" class="search__field" placeholder="Что ищем?">
-					</div>
+					<form class="search__form" action="">
+						<input type="submit" class="search__btn" value=" ">
+						<div class="search__pop-up">
+							<input type="search" class="search__field" placeholder="Что ищем?">
+						</div>
+					</form>
 				</div>
 				<!--		ЛОГИН-->
 				<div class="user-controls__login login">
@@ -78,19 +80,19 @@
 						<a class="main-header__link" href="catalog.html">Каталог</a>
 						<!--			ВЫПАДАЮЩАЯ МЕНЮШКА-->
 						<ul class="catalog__list">
-							<li class="catalog__item catalog__item--highlighted"><a href="#">Новинки</a></li>
-							<li class="catalog__item"><a href="catalog.html">Сливочное</a></li>
-							<li class="catalog__item catalog__item--hover"><a href="#">Щербеты</a></li>
-							<li class="catalog__item catalog__item--active"><a href="#">Фруктовый лед</a></li>
-							<li class="catalog__item"><a href="#">Мелорин</a></li>
+							<li class="catalog__item catalog__item--highlighted"><a class="catalog__link" href="#">Новинки</a></li>
+							<li class="catalog__item"><a class="catalog__link" href="catalog.html">Сливочное</a></li>
+							<li class="catalog__item catalog__item--hover"><a class="catalog__link" href="#">Щербеты</a></li>
+							<li class="catalog__item catalog__item--active"><a class="catalog__link" href="#">Фруктовый лед</a></li>
+							<li class="catalog__item"><a class="catalog__link" href="#">Мелорин</a></li>
 						</ul>
 					</li>
 					<li class="main-navigation__item"><a href="#" class="main-header__link">Доставака и оплата</a>
-					<li class="main-navigation__item"><a href="#" class="main-header__link">О компании</a>
+						<li class="main-navigation__item"><a href="#" class="main-header__link">О компании</a>
 				</ul>
 			</nav>
 			<div class="timetable">С 10 до 20, ежедневно
-			</br><span class="timetable__tel">8 812 450-25-25</span>
+				</br><span class="timetable__tel">8 812 450-25-25</span>
 			</div>
 
 		</header>
