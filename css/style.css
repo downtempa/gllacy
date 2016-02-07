@@ -30,14 +30,14 @@ h3 {
 	font-family: "Roboto", "Arial", "Helvetica", sans-serif;
 	font-size: 24px;
 	line-height: 30px;
-	font-weight: medium;
+	font-weight: 500;
 }
 
 h4 {
 	font-family: "Roboto", "Arial", "Helvetica", sans-serif;
 	font-size: 24px;
 	line-height: 22px;
-	font-weight: medium;
+	font-weight: 500;
 	color: #343434;
 }
 
@@ -63,9 +63,29 @@ img {
 	float: left;
 }
 
+.main-header__link {
+	font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/*
+.main-header__link::after {
+	display: block;
+	content: "";
+	width: 100%;
+	height: 1px;
+}
+*/
+
 .main-navigation__item {
 	display: inline-block;
 	vertical-align: top;
+	margin-right: 25px;
 }
 
 
@@ -121,6 +141,15 @@ img {
 .timetable {
 	clear: both;
 	float: right;
+	width: 175px;
+	color: #ffffff;
+	font-size: 14px;
+	text-align: right;
+}
+
+.timetable__tel {
+	font-size: 22px;
+	font-weight: 900;
 }
 
 
@@ -150,6 +179,11 @@ img {
 	float: right;
 }
 
+.event__content {
+	font-size: 18px;
+	color: #ffffff;
+}
+
 
 /*HIT----------------==============*/
 
@@ -163,12 +197,42 @@ img {
 	width: 23.35%;
 	margin-right: 2.2%;
 	font-size: 16px;
-	
+	text-align: center;
 }
 
 .bestcellers__hit:nth-child(4n) {
 	margin-right: 0;
 }
+
+.product__price-title {
+	font-weight: bold;
+	font-size: 30px;
+	color: #ffffff;
+}
+/*ЛЁНЯ ПОМЕНЯЙ ЗНАК РУБЛЯ!!!-------------------------*/
+/*И ТЕНЬ СДЕЛАЙ*/
+.product__big-figure {
+	font-size: 45px;
+}
+
+.product__link {
+	font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 22px;
+	color: #ffffff;
+	text-align: center;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+	text-decoration: none;
+	text-align: center;
+	cursor: default;
+		
+}
+
+.product__btn {
+	display: none
+}
+
 
 /*ADVANTAGES-------------------------------*/
 
@@ -182,6 +246,7 @@ img {
 	float: right;
 }
 
+
 /*BLOG-----------------------------------------*/
 
 .blog {
@@ -189,11 +254,51 @@ img {
 	float: left;
 }
 
+.blog__title {
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 500;
+	color: #5a5a5a;
+}
+
+.blog__topic {
+	font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: bold;
+	color: #353535;
+}
+
+
 /*SUBSCRIBE------------------------------------*/
 
 .subscribe {
 	width: 48.9%;
 	float: right;
+}
+
+.subscribe__content {
+	color: #5a5a5a;
+}
+
+/*MAP----------------*/
+
+.contacts {
+	color: #343434; 
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.contacts__adress {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.contacts__tel {
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: bold;
 }
 
 /*FOOTER*/
@@ -206,6 +311,28 @@ img {
 .main-footer__regulations {
 	width: 48.9%;
 	float: left;
+}
+
+.regulations__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.regulations__link {
+	font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 22px;
+	color: #ffffff;
+/*	text-align: center;*/
+	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+	text-decoration: none;
+/*	text-align: center;*/
+}
+
+.regulations__link--love {
+	font-weight: bold;
 }
 
 .regulations__left-col {
@@ -221,11 +348,29 @@ img {
 	float: right;
 }
 
+.copyright {
+	font-size: 12px;
+	color: #ffffff;
+}
+
+.copyright__link {
+	font-family: "Roboto", "Arial", "Helvetica", sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 12px;
+	color: #ffffff;
+/*	text-align: center;*/
+	border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+	text-decoration: none;
+}
+
+
 /*CATALOG____PAGE-----------------*/
 
 .breadcrumbs__element {
 	display: inline-block;
 }
+
 
 /*PRODUCT-CATALOG-----------------------*/
 
@@ -260,6 +405,7 @@ img {
 	vertical-align: top;
 	font-size: 16px;
 }
+
 
 /*POPUP FEEDBACK--------------------------*/
 
